@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shahstudio.primeFlicx"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:3:2-64
+11-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:3:19-61
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:4:2-76
+12-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:4:19-73
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:5:2-62
+13-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:5:19-59
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:6:2-77
+14-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:6:19-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:7:2-78
+15-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:7:19-75
+16
+17    <application
+17-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:8:2-72:16
+18        android:allowBackup="true"
+18-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:9:3-29
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\eaf421e2547c4985151755a55f6b37a6\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/app_icon"
+21-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:10:3-36
+22        android:label="@string/app_name"
+22-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:11:3-35
+23        android:theme="@style/AppTheme"
+23-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:13:3-34
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:12:3-38
+25        <activity
+25-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:14:3-24:14
+26            android:name="com.shahstudio.primeFlicx.MainActivity"
+26-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:15:4-32
+27            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+27-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:16:4-97
+28            android:hardwareAccelerated="true"
+28-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:17:4-38
+29            android:screenOrientation="portrait"
+29-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:19:4-40
+30            android:supportsPictureInPicture="true" >
+30-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:18:4-43
+31            <intent-filter>
+31-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:20:4-23:20
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:21:5-57
+32-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:21:13-54
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:22:5-65
+34-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:22:15-62
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:25:3-31:48
+38            android:name="com.shahstudio.primeFlicx.MovieViewActivity"
+38-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:26:4-37
+39            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+39-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:27:4-97
+40            android:hardwareAccelerated="true"
+40-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:28:4-38
+41            android:screenOrientation="portrait"
+41-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:30:4-40
+42            android:supportsPictureInPicture="true"
+42-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:29:4-43
+43            android:windowSoftInputMode="stateHidden" />
+43-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:31:4-45
+44        <activity
+44-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:32:3-38:48
+45            android:name="com.shahstudio.primeFlicx.MoviePlayerActivity"
+45-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:33:4-39
+46            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+46-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:34:4-97
+47            android:hardwareAccelerated="true"
+47-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:35:4-38
+48            android:screenOrientation="landscape"
+48-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:37:4-41
+49            android:supportsPictureInPicture="true"
+49-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:36:4-43
+50            android:windowSoftInputMode="stateHidden" />
+50-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:38:4-45
+51        <activity
+51-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:39:3-41:43
+52            android:name="com.shahstudio.primeFlicx.DebugActivity"
+52-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:40:4-33
+53            android:screenOrientation="portrait" />
+53-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:41:4-40
+54
+55        <meta-data
+55-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:42:3-44:60
+56            android:name="com.google.android.gms.version"
+56-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:43:4-49
+57            android:value="@integer/google_play_services_version" />
+57-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:44:4-57
+58
+59        <provider
+59-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:45:3-49:30
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:46:4-68
+61            android:authorities="com.shahstudio.primeFlicx.firebaseinitprovider"
+61-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:47:4-72
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+63            android:exported="false"
+63-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:48:4-28
+64            android:initOrder="100" />
+64-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:49:4-27
+65
+66        <service
+66-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:50:3-59:13
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:51:4-75
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+69            android:exported="false" >
+69-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:52:4-28
+70            <meta-data
+70-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:53:4-55:73
+71                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+71-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:54:5-97
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:55:5-70
+73            <meta-data
+73-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:56:4-58:73
+74                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+74-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:57:5-97
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:58:5-70
+76        </service>
+77
+78        <provider
+78-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:60:3-68:14
+79            android:name="androidx.core.content.FileProvider"
+79-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:62:4-53
+80            android:authorities="com.shahstudio.primeFlicx.provider"
+80-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:61:4-60
+81            android:exported="false"
+81-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:63:4-28
+82            android:grantUriPermissions="true" >
+82-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:64:4-38
+83            <meta-data
+83-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:65:4-67:46
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:66:5-55
+85                android:resource="@xml/provider_paths" />
+85-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:67:5-43
+86        </provider>
+87
+88        <uses-library
+88-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:69:3-71:31
+89            android:name="org.apache.http.legacy"
+89-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:70:4-41
+90            android:required="false" />
+90-->C:\Users\SHAHZAD ALI\Desktop\watch_movie\app\src\main\AndroidManifest.xml:71:4-28
+91
+92        <activity
+92-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:27:9-44:20
+93            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+93-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:28:13-80
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:29:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:30:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:31:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:32:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:33:13-43:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:34:17-69
+99-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:34:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:36:17-76
+101-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:36:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:37:17-78
+102-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:37:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:39:17-42:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:40:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:41:21-37
+107                    android:scheme="genericidp" />
+107-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:42:21-48
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:45:9-62:20
+111            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+111-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:46:13-79
+112            android:excludeFromRecents="true"
+112-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:47:13-46
+113            android:exported="true"
+113-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:48:13-36
+114            android:launchMode="singleTask"
+114-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:49:13-44
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+115-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:50:13-72
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:51:13-61:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:34:17-69
+117-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:34:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:36:27-73
+120                <category android:name="android.intent.category.BROWSABLE" />
+120-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:37:17-78
+120-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:37:27-75
+121
+122                <data
+122-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:39:17-42:51
+123                    android:host="firebase.auth"
+123-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:40:21-49
+124                    android:path="/"
+124-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:41:21-37
+125                    android:scheme="recaptcha" />
+125-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:42:21-48
+126            </intent-filter>
+127        </activity>
+128
+129        <service
+129-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:64:9-73:19
+130            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+130-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:65:13-101
+131            android:enabled="true"
+131-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:66:13-35
+132            android:exported="false" >
+132-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:67:13-37
+133            <intent-filter>
+133-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:68:13-72:29
+134                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+134-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:69:17-89
+134-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:69:25-86
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:36:17-76
+136-->[com.google.firebase:firebase-auth:21.0.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\3539561947fe4c0e58adff28ea6ac68e\transformed\jetified-firebase-auth-21.0.0\AndroidManifest.xml:36:27-73
+137            </intent-filter>
+138        </service>
+139
+140        <activity
+140-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\4d4c6ba37274d6dfd7a278210342f155\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+141-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\4d4c6ba37274d6dfd7a278210342f155\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\4d4c6ba37274d6dfd7a278210342f155\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SHAHZAD ALI\.gradle\caches\transforms-3\4d4c6ba37274d6dfd7a278210342f155\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+144    </application>
+145
+146</manifest>

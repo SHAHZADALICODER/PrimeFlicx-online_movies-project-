@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/layout_movie_player.xml.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/layout/movie_player.xml"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_drawer_background.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/drawer_background.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/layout_movie_view.xml.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/layout/movie_view.xml"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_favorite_black.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_favorite_black.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_google_login_button_icon.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/google_login_button_icon.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_logo.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/xml_provider_paths.xml.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_search_black.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_search_black.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_content_copy_black.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_content_copy_black.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/layout_main.xml.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/layout/main.xml"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_send_black.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_send_black.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_default_image.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/default_image.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_cloud_download_black.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_cloud_download_black.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_e3e6ea9c3537e5472c50617002256665.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/e3e6ea9c3537e5472c50617002256665.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_arrow_drop_up_white.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_arrow_drop_up_white.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/layout__drawer_movie_view.xml.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/layout/_drawer_movie_view.xml"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_arrow_drop_down_white.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_arrow_drop_down_white.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_app_icon.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/layout_shows_list.xml.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/layout/shows_list.xml"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_account_circle_white.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_account_circle_white.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_ic_account_circle_black.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/ic_account_circle_black.png"
+    },
+    {
+        "merged": "com.shahstudio.primeFlicx.app-merged_res-19:/drawable-xhdpi_testmoviebanner.png.flat",
+        "source": "com.shahstudio.primeFlicx.app-main-21:/drawable-xhdpi/testmoviebanner.png"
+    }
+]

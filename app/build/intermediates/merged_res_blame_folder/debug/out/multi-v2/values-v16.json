@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.shahstudio.primeFlicx.app-mergeDebugResources-17:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\SHAHZAD ALI\\.gradle\\caches\\transforms-3\\eaf421e2547c4985151755a55f6b37a6\\transformed\\core-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SHAHZAD ALI\\.gradle\\caches\\transforms-3\\49889aa6b61011d9fe2fbd118a72ab0a\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
